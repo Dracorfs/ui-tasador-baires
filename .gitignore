@@ -43,3 +43,6 @@ lerna-debug.log*
 
 # Deno
 deno.lock
+
+# Bun
+bun.lockb
