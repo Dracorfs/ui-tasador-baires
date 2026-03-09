@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { BuildingIcon } from "../ui/icons";
 
 export const Footer = component$(() => {
     const currentYear = new Date().getFullYear();
@@ -11,9 +10,7 @@ export const Footer = component$(() => {
                     {/* Brand Col */}
                     <div class="md:col-span-2">
                         <div class="flex items-center gap-2 mb-6">
-                            <div class="bg-blue-600 text-white p-1.5 rounded-lg">
-                                <BuildingIcon class="w-5 h-5" />
-                            </div>
+                            <img src="/favicon.svg" alt="Tasador Baires" class="w-7 h-7 invert" />
                             <span class="text-xl font-bold text-white tracking-tight">
                                 Tasador<span class="text-blue-500">Baires</span>
                             </span>

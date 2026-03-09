@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { BuildingIcon } from "../ui/icons";
 
 export const Navbar = component$(() => {
     return (
@@ -8,9 +7,7 @@ export const Navbar = component$(() => {
                 <div class="flex justify-between items-center h-20">
                     {/* Logo */}
                     <div class="flex items-center gap-2 cursor-pointer group">
-                        <div class="bg-blue-600 text-white p-2 rounded-xl group-hover:bg-blue-700 transition-colors shadow-lg shadow-blue-500/20">
-                            <BuildingIcon class="w-6 h-6" />
-                        </div>
+                        <img src="/favicon.svg" alt="Tasador Baires" class="w-8 h-8 group-hover:scale-110 transition-transform" />
                         <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 tracking-tight">
                             Tasador<span class="text-blue-600">Baires</span>
                         </span>
