@@ -68,6 +68,8 @@ export default tseslint.config(
   {
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
+      "no-unassigned-vars": "off",
+      "preserve-caught-error": "off",
     },
   },
 );

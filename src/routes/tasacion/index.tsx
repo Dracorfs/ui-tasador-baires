@@ -5,12 +5,7 @@ import { Footer } from "../../components/layout/footer";
 import { BuildingIcon, ArrowRightIcon, CheckCircleIcon } from "../../components/ui/icons";
 
 // ─── Types ────────────────────────────────────────────────
-type Quality = "good" | "medium" | "bad";
-type Prestige = "high" | "medium" | "low";
-type Orientation = "N" | "E" | "W" | "S" | "NE" | "NW" | "SE" | "SW";
-type Layout = "front_facing" | "rear_facing" | "internal" | "lateral" | "reversed_plan";
-type ApartmentType = "studio_apartment" | "half_floor" | "full_floor" | "duplex";
-type Views = "remarkable" | "good" | "common" | "bad";
+// Types used only for documentation; store properties are typed as `string` for Qwik serialization.
 
 interface ValuationResult {
 	id: string;
