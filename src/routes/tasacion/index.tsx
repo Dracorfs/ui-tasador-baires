@@ -150,7 +150,7 @@ export default component$(() => {
 
 		try {
 			const res = await fetch(
-				"https://api-tasador-baires.deno.dev/tasacion",
+				"https://api-tasador-baires.dracorfs.deno.net/tasacion",
 				{
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
